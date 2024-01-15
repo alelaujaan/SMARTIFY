@@ -74,7 +74,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-}
 #exterior:hover{
     transition: all 5ms;
     grid-row: 2/4;
