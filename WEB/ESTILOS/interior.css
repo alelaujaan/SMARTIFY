@@ -1,0 +1,183 @@
+@media only screen and (min-width: 500px) {
+    /* Estilo para PC */
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 20% 60%;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+        grid-row: 1;
+    }
+    
+    #logoimg {
+        max-width: 100%;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    h1#titulo {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+    }
+    
+    #perfil {
+        justify-self: end; /* Para alinear el avatar a la derecha */
+    }
+    
+    main {
+        padding: 10px;
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        grid-row: 3;
+    }
+    
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+}
+
+/* Estilo para móviles */
+@media only screen and (max-width: 499px) {
+    /* Estilo para móviles */
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 20% 60% 20%;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        grid-row: 1;
+    }
+    
+    #logoimg {
+        display: none;
+    }
+    
+    h1#titulo {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+    }
+    
+    #perfil {
+        max-height: 30px; /* Ajusta el tamaño del avatar para móviles */
+    }
+    
+    main {
+        padding: 20px;
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        grid-row: 3;
+    }
+    
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column; /* Botones dispuestos en columna */
+        align-items: center;
+    }
+
+    button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+}

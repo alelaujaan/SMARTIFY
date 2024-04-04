@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Control Interior - SMARTIFY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="FOTOS/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="ESTILOS/interior.css">
+</head>
+<body>
+    <header>
+            <h1 style="font-size: 50px;" id="titulo">SMARTIFY</h1>
+            <img src="FOTOS/icono.png" alt="" style="width: 50%;" id="logoimg" onclick="window.location.href = 'index.html' ">
+    </header>
+    <main>
+        <div class="botones">
+            <button onclick="encenderLuz('habitacion1')">Habitación 1</button>
+            <button onclick="encenderLuz('habitacion2')">Habitación 2</button>
+            <button onclick="encenderLuz('habitacion3')">Habitación 3</button>
+            <button onclick="encenderLuz('habitacion4')">Habitación 4</button>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>¿Quiénes somos?</li>
+            <li>Preguntas frecuentes</li>
+        </ul>
+    </footer>
+
+    <script>
+        function encenderLuz(habitacion) {
+            // Aquí iría la lógica para encender la luz de la habitación seleccionada
+            console.log("Se ha encendido la luz de la habitación: " + habitacion);
+        }
+    </script>
+</body>
+</html>
