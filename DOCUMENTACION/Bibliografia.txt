@@ -1,0 +1,4 @@
+https://programarfacil.com/esp32/servidor-web-con-esp32/
+https://chat.openai.com/
+http://www.sinaptec.alomar.com.ar/2018/10/esp32-desde-cero-tutorial-7-mostrar-los.html
+https://www.luisllamas.es/como-servir-una-pagina-web-con-el-esp8266-desde-spiffs/
