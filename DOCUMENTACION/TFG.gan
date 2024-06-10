@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="es_ES">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd15" name="Notas" width="20" order="-1"/>
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="e0dc7b4301b64cda9fb7dcbc6a30b265" name="Bocetado Pagina Web" meeting="false" start="2024-04-02" duration="1" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="86f2ecc5839b48d9a10ed866c00ca09e" name="Desarrollo Interfaces Principales" meeting="false" start="2024-04-03" duration="7" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="2d35ab961a4a435187c199570f060c21" name="Repaso Detalles Pagina Web" meeting="false" start="2024-04-12" duration="2" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="26b89ec550e94f2cadcff7d5200eae04" name="Creacion BBDD" meeting="false" start="2024-04-16" duration="3" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="109d69ef955d4186a0682e08680cb478" name="Creacion API" meeting="false" start="2024-04-19" duration="7" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="5f9f0250d7344e029091a2b25ae1353b" name="Integracion API en la WEB" meeting="false" start="2024-04-30" duration="7" complete="0" expand="true"/>
+        <task id="6" uid="122a10e731434355871c357c28650fa1" name="Programacion Modulo Arduino" meeting="false" start="2024-05-16" duration="3" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="67c67bb43ae04289b2f32db1720a0e80" name="Cableado Arduino" meeting="false" start="2024-05-21" duration="1" complete="0" expand="true"/>
+        <task id="8" uid="780a69c0c736453d82482e0e176fdd4b" name="Programacion Modulo ESP32" meeting="false" start="2024-05-23" duration="4" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="8127291625d8470dbfdab20b6b73bcbb" name="Cableado ESP32" meeting="false" start="2024-05-29" duration="1" complete="0" expand="true"/>
+        <task id="11" uid="0a565f1fbd1842d8990728fa785aced6" name="Montaje Maqueta" meeting="false" start="2024-06-03" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="1" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="58737d4ec7fa4ac593577bc2714621ca" name="Integracion Hardware en Maqueta" meeting="false" start="2024-06-04" duration="3" complete="0" expand="true"/>
+        <task id="13" uid="77606d72c2434871ac15b3e29e7fba03" name="FRONT END FUNCIONAL" meeting="true" start="2024-04-16" duration="0" complete="0" expand="true"/>
+        <task id="14" uid="71509dd6c0e9408983a9f1fb88e4ed2d" name="BACKEND FUNCIONAL" meeting="true" start="2024-05-15" duration="0" complete="0" expand="true"/>
+        <task id="15" uid="4c6253ea7f954ada8a26ee2d1ebd51a2" name="ARDUINO Y ESP FUNCIONALES" meeting="true" start="2024-05-28" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
